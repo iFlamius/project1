@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
 nav {
     height: 100px;
     width: 100%;
@@ -39,4 +43,31 @@ nav {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+/* delete later */
+
+.container {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 24px 12px;
+    border: 2px solid #242424;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 2px solid #242424;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 36px;
+    color: #3032b1;
+}
+
+.box:hover {
+    background-color: #5c87af;
+    
 }
